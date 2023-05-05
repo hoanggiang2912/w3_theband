@@ -1,12 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    
+    <div class="container">
+        <header class="header">
+            <ul class="nav">
+                <li class="nav__item"><a href="" class="nav__link">HOME</a></li>
+                <li class="nav__item"><a href="" class="nav__link">BAND</a></li>
+                <li class="nav__item"><a href="" class="nav__link">TOUR</a></li>
+                <li class="nav__item"><a href="" class="nav__link">CONTACT</a></li>
+                <li class="nav__item">
+                    <a href="" class="nav__link">MORE <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="subnav">
+                        <li class="subnav__item"><a href="" class="subnav__link">Merchandise</a></li>
+                        <li class="subnav__item"><a href="" class="subnav__link">Extras</a></li>
+                        <li class="subnav__item"><a href="" class="subnav__link">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="header__icon">
+                <i class="fa-solid fa-magnifying-glass magni"></i>
+            </div>
+        </header>
+        <div class="slider">
+            <div class="text-content">
+                <h2>Los Angeles</h2>
+                <p>We had the best time playing at Venice Beach!</p>
+            </div>
+        </div>
+        <div class="section about__section">
+            <div class="section__top about__top">
+                <h1>THE BAND</h1>
+                <p>We love music</p>
+            </div>
+            <p class="about__content">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam.
+            </p>
+            <div class="about__cols">
+                <div class="cols__item">
+                    <h5 class="item__title">Name</h5>
+                    <div class="item__banner"></div>
+                </div>
+                <div class="cols__item">
+                    <h5 class="item__title">Name</h5>
+                    <div class="item__banner"></div>
+                </div>
+                <div class="cols__item">
+                    <h5 class="item__title">Name</h5>
+                    <div class="item__banner"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section tourdates__section">
+            <div class="section__top tourdates__top">
+                <h1>TOUR DATES</h1>
+                <p>Remember to book your tickets!</p>
+            </div>
+            <div class="book_status">
+                <div class="status__item row__item">
+                    <p>September</p><span class="soldout">Sold out</span>
+                </div>
+                <div class="status__item row__item">
+                    <p>October</p><span class="soldout">Sold out</span>
+                </div>
+                <div class="status__item row__item row__item--qty">
+                    <p>November</p><span class="qty">3</span>
+                </div>
+            </div>
+            <div class="tourdates__tours">
+                <div class="tour__item">
+                    <div class="item__top"><img src="/access/image/newyork.jpg" alt=""></div>
+                    <div class="item__content">
+                        <h4 class="content__location">New York</h4>
+                        <p class="content__date">Fri 27 Nov 2016</p>
+                        <p class="content__detail">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="" class="tour__btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="tour__item">
+                    <div class="item__top"><img src="/access/image/paris.jpg" alt=""></div>
+                    <div class="item__content">
+                        <h4 class="content__location">Paris</h4>
+                        <p class="content__date">Sat 28 Nov 2016</p>
+                        <p class="content__detail">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="" class="tour__btn">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="tour__item">
+                    <div class="item__top"><img src="/access/image/sanfansico.jpg" alt=""></div>
+                    <div class="item__content">
+                        <h4 class="content__location">San Francisco</h4>
+                        <p class="content__date">Sun 29 Nov 2016</p>
+                        <p class="content__detail">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="" class="tour__btn">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section contact">
+            <div class="section__top contact__top">
+                <h1>CONTACT</h1>
+                <p>Fan? Drop a note!</p>
+            </div>
+            <div class="contact__content">
+                <div class="content__right">
+                    <div class="item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Chicago, US</p>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>Phone: +00 151515</p>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>Email: mail@mail.com</p>
+                    </div>
+                </div>
+                <form action="" class="content__left contact__form">
+                    <div class="form__group form__group-top">
+                        <div class="form__group"><input type="text" placeholder="Name"></div>
+                        <div class="form__group"><input type="text" placeholder="Email"></div>
+                    </div>
+                    <div class="form__group">
+                        <input type="text" placeholder="Message">
+                    </div>
+                    <a href="" class="contact__form--btn">Send</a>
+                </form>
+            </div>
+        </div>
+        <img src="/access/image/map.jpg" alt="" class="map">
+        <div class="footer">
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-snapchat"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p>Powered by <a href="">w3.css</a></p>
+        </div>
+    </div>
 </body>
+<script src="/app.js"></script>
+
 </html>
